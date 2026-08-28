@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Littlebrook Consulting</title>
+  <meta name="description" content="Get in touch with Littlebrook Consulting to discuss a strategy or management consulting engagement." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="nav-logo">Little<span>brook</span> Consulting</a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="case-studies.html">Case Studies</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+        <li><a href="contact.html" class="btn btn-primary">Start a conversation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h1>Let's talk about what you're working on</h1>
+        <p>Send us a short note about the decision or problem in front of you. We reply personally, usually within one business day.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="contact-grid">
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Whitfield" autocomplete="name" />
+              <span class="field-error" id="name-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="jane@yourcompany.com" autocomplete="email" />
+              <span class="field-error" id="email-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us a little about what you're working on..."></textarea>
+              <span class="field-error" id="message-error"></span>
+            </div>
+
+            <div>
+              <button type="submit" class="btn btn-primary">Send message</button>
+            </div>
+
+            <div class="form-status" id="form-status" role="status"></div>
+          </form>
+
+          <aside class="contact-info">
+            <h3>Reach us directly</h3>
+            <div class="contact-info-item">
+              <h4>Email</h4>
+              <p><a href="mailto:hello@littlebrookconsulting.com">hello@littlebrookconsulting.com</a></p>
+            </div>
+            <div class="contact-info-item">
+              <h4>Phone</h4>
+              <p><a href="tel:+15555550142">+1 (555) 555-0142</a></p>
+            </div>
+            <div class="contact-info-item">
+              <h4>Office</h4>
+              <p>128 Riverside Row, Suite 400<br />Boston, MA 02110</p>
+            </div>
+            <div class="map-placeholder">Map placeholder — embed a map here</div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="index.html" class="footer-logo">Little<span>brook</span> Consulting</a>
+          <p>A boutique strategy and management consulting practice helping ambitious organisations make clearer, faster decisions.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Navigate</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="case-studies.html">Case Studies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:hello@littlebrookconsulting.com">hello@littlebrookconsulting.com</a></li>
+            <li><a href="tel:+15555550142">+1 (555) 555-0142</a></li>
+            <li>128 Riverside Row, Suite 400<br />Boston, MA 02110</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year">2026</span> Littlebrook Consulting. All rights reserved.</span>
+        <span>Placeholder content for demonstration purposes.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
