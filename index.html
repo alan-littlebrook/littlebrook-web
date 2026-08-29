@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
@@ -19,14 +19,16 @@
       <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
-      <ul class="nav-links">
-        <!-- <li><a href="index.html" aria-current="page">Home</a></li>
+	<!-- hiding the original navigation links
+	  <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="case-studies.html">Case Studies</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="contact.html" class="btn btn-primary">Start a conversation</a></li> -->
+        <li><a href="contact.html" class="btn btn-primary">Start a conversation</a></li>
       </ul>
+	-->
     </nav>
   </header>
 
@@ -40,10 +42,14 @@
           <h1>Clear thinking for decisions that matter.</h1>
           <p class="hero-tagline">Navigating evolving regulatory landscapes delivering end-to-end quality and governance solutions that protect your reputation and drive operational excellence.</p>
           <div class="hero-actions">
+			<!-- hiding the orginal cta buttons
             <a href="contact.html" class="btn btn-primary">Start a conversation</a>
             <a href="services.html" class="btn btn-outline">Explore our services</a>
+			-->
+			<!-- adding an image -->
+			<img src="home-page-image.jpg" alt="Chaos to Order">
           </div>
-          <p class="intro-text">We are a consulting practice working with manager, executives, and boards who need an outside perspective they can trust. We combine rigorous analysis with hands-on delivery, working alongside your team rather than handing over a report and disappearing. No jargon, no bloated teams, just our attention on the problems that matter most to your business.</p>
+          <p class="intro-text">We are a consulting practice working with managers, executives, and boards who need an outside perspective they can trust. We combine rigorous analysis with hands-on delivery, working alongside your team rather than handing over a report and disappearing. No jargon, no bloated teams, just our attention on the problems that matter most to your business.</p>
         </div>
       </div>
     </section>
@@ -145,7 +151,7 @@
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="main.js"></script>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
