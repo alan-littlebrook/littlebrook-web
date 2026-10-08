@@ -309,7 +309,6 @@ section {
 
 .page-hero p {
   color: var(--color-text-muted);
-  max-width: 620px;
   font-size: 1.05rem;
   margin-bottom: 0;
 }
