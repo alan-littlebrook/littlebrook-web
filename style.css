@@ -243,6 +243,12 @@ section {
   padding: 0.55rem 1.3rem;
 }
 
+.nav-links a.btn-primary,
+.nav-links a.btn-primary:hover,
+.nav-links a.btn-primary[aria-current="page"] {
+  color: var(--color-white);
+}
+
 /* ---------- Hero ---------- */
 .hero {
   padding-block: 3.5rem 4.5rem;
