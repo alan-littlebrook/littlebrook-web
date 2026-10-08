@@ -667,7 +667,7 @@ section {
 .cta-band p {
   color: rgba(255, 255, 255, 0.78);
   max-width: 520px;
-  margin-inline: auto 1.6em auto;
+  margin-inline: auto;
   margin-bottom: 2rem;
 }
 
