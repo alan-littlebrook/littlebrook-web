@@ -766,6 +766,11 @@ section {
     padding-block: 3.5rem;
   }
 
+  .site-header {
+    background: var(--color-white);
+    backdrop-filter: none;
+  }
+
   .nav-toggle {
     display: flex;
   }
